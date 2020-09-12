@@ -1,0 +1,39 @@
+.login {
+  
+  .button-login {
+    padding: 20px;
+    border-radius: 99px;
+    background-color: #1db954;
+    font-weight: 620 ;
+    color: white;
+    text-decoration: none;
+    margin: 50px;
+  }
+
+  .button-login:hover{
+    background-color: #20d861;
+    transition: all 0.5s;
+  }
+
+ .logo {
+    width: 100%;
+    margin: 50px;
+ }
+
+ .login-settings {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    height: 100vh;
+    background-color: black;
+  }
+
+  @media only screen and (min-width:513px) {
+    .logo {
+      width: 545px;
+   }
+  }
+  
+}
+
