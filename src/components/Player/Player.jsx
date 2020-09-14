@@ -1,18 +1,17 @@
 import React from 'react'
 import Body from '../Body/Body'
+import Footer from '../Footer/Footer'
 import Sidebar from '../Sidebar/Sidebar'
 import './Player.scss'
 
 const Player = ({ spotify }) => {
   return (
-    <div>
+    <div className="player">
       <div className="player_body">
         <Sidebar />
-        {/* SIDEBAR */}
-        <Body />
-        {/* BODY */}
+        <Body spotify={spotify} />
       </div>
-      {/* FOOTER */}
+      <Footer />
     </div>
   )
 }
